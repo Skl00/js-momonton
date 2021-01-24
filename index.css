@@ -1,18 +1,38 @@
 body {
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 h1 {
     color: white;
+    font-size: 15vh;
+    margin-bottom: 1;
 }
 
 .form,
 .greetings {
     display: none;
+    color: white;
+    font-size: 5vh;
+}
+
+.weather {
+    color: white;
+    font-size: 2vh;
+    position: absolute;
+    right: 10px;
+    top: 0;
 }
 
 .showing {
     display: block;
+}
+
+.toDoList {
+    color: white;
 }
 
 @keyframes fadeIn {
